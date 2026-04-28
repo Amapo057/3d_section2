@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
+    float xValue = 0.01f;
+    float yValue = 0.5f;
+    float zValue = 0f;
+
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created``
     void Start()
     {
@@ -11,6 +17,6 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.01f, 0f, 0f);
+        transform.Translate(xValue, yValue, zValue);
     }
 }
