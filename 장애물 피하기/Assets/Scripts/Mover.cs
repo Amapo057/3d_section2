@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    float xValue = 0.01f;
-    float yValue = 0.5f;
-    float zValue = 0f;
+    [SerializeField] float xValue = 0f;
+    // serializeField는 인스펙터에서 접근할 수 있도록 해줌
+    [SerializeField] float yValue = 0.03f;
+    [SerializeField] float zValue = 0f;
 
     
     
