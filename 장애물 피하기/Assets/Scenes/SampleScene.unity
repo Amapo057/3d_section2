@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 105015561}
   - component: {fileID: 105015560}
   - component: {fileID: 105015559}
+  - component: {fileID: 105015563}
   m_Layer: 0
   m_Name: wall1 (2)
   m_TagString: Untagged
@@ -231,6 +232,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &105015563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105015558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &151297405
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +256,7 @@ GameObject:
   - component: {fileID: 151297408}
   - component: {fileID: 151297407}
   - component: {fileID: 151297406}
+  - component: {fileID: 151297410}
   m_Layer: 0
   m_Name: wall1 (1)
   m_TagString: Untagged
@@ -343,6 +357,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151297410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151297405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +678,7 @@ GameObject:
   - component: {fileID: 654020745}
   - component: {fileID: 654020744}
   - component: {fileID: 654020743}
+  - component: {fileID: 654020747}
   m_Layer: 0
   m_Name: wall1
   m_TagString: Untagged
@@ -752,6 +779,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654020747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654020742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +852,7 @@ GameObject:
   - component: {fileID: 984173625}
   - component: {fileID: 984173624}
   - component: {fileID: 984173623}
+  - component: {fileID: 984173627}
   m_Layer: 0
   m_Name: pilar2
   m_TagString: Untagged
@@ -913,6 +953,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984173627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984173622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1245200462
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,6 +977,7 @@ GameObject:
   - component: {fileID: 1245200465}
   - component: {fileID: 1245200464}
   - component: {fileID: 1245200463}
+  - component: {fileID: 1245200467}
   m_Layer: 0
   m_Name: wall1 (3)
   m_TagString: Untagged
@@ -1025,6 +1078,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1245200467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245200462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1337875874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +1478,7 @@ GameObject:
   - component: {fileID: 1846508675}
   - component: {fileID: 1846508674}
   - component: {fileID: 1846508673}
+  - component: {fileID: 1846508677}
   m_Layer: 0
   m_Name: pilar1
   m_TagString: Untagged
@@ -1513,6 +1579,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1846508677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846508672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &2051636465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,6 +1603,7 @@ GameObject:
   - component: {fileID: 2051636468}
   - component: {fileID: 2051636467}
   - component: {fileID: 2051636466}
+  - component: {fileID: 2051636470}
   m_Layer: 0
   m_Name: pilar3
   m_TagString: Untagged
@@ -1625,6 +1704,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2061286151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2051636470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051636465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &2061286150
 GameObject:
   m_ObjectHideFlags: 0
