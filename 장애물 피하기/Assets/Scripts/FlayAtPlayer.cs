@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlayAtPlayer : MonoBehaviour
 {
     [SerializeField] Transform player;
-    [SerializeField] float speed = 10f;
+    [SerializeField] float speed = 20f;
     Vector3 playerPosition;
 
 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9149030079481583293}
   - component: {fileID: 1930296046005423507}
   - component: {fileID: 1466908682778121572}
+  - component: {fileID: -7827070708100146130}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -127,3 +128,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FlayAtPlayer
   player: {fileID: 0}
   speed: 11
+--- !u!114 &-7827070708100146130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832989529972563210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b7c55ed2601414e9c33b7ad2702a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
