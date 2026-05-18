@@ -1,4 +1,5 @@
 // using System.Threading.Tasks.Dataflow;
+using System;
 using UnityEngine;
 
 public class FlayAtPlayer : MonoBehaviour
@@ -7,9 +8,15 @@ public class FlayAtPlayer : MonoBehaviour
     [SerializeField] float speed = 10f;
     Vector3 playerPosition;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Awake()
+    {
+        gameObject.SetActive(false);
+    }
+
     void Start()
     {
+        
         playerPosition = player.transform.position;
         
     }
